@@ -54,9 +54,10 @@ xp: 50
 만약 그런거라면 어떻게 해야할까요?
 
 `@hint`
-
+gogo
 
 `@possible_answers`
 haha
 
 `@feedback`
+ggg
