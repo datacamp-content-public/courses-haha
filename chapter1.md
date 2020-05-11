@@ -79,55 +79,29 @@ class customerList(object):
 
 ---
 
-## Insert exercise title here
-
-```yaml
-type: PureMultipleChoiceExercise
-key: 993edf8798
-xp: 50
-```
-
-만약 그런거라면 어떻게 해야할까요?
-
-`@hint`
-gogo
-
-`@possible_answers`
-haha
-
-`@feedback`
-ggg
-
----
-
-## Insert exercise title here
-
-```yaml
-type: VideoExercise
-key: 31e17b2a6f
-xp: 50
-```
-
-`@projector_key`
-c562b68e7ed7acf0428e0122a43bf7a5
-
----
-
-## Insert exercise title here
+## 주피터 노트북 (Colab) 에서 Shell command (bash) 사용하기
 
 ```yaml
 type: NormalExercise
-key: 52e62b140b
+key: c9d9e18436
+lang: python
 xp: 100
+skills: 2
 ```
 
+(3 점)
 
+분석 업무를 본인 PC 에서 작업을 한다면, 파일을 찾거나 저장, 이동을 윈도우 탐색기(macOS 는 Finder) 로 편리하게 작업이 가능합니다.
+
+그러나 마우스를 활용할 수 없는 환경에서는 Shell command 를 통해 원하는 파일을 가져오거나, 저장, 삭제, 이동 등을 할 수 있습니다.
+
+여기에서는 주피터 노트북에서 Shell command 를 사용하는 방법을 간단히 알아보겠습니다.
 
 `@instructions`
-
+Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
 
 `@hint`
-
+목록은 영어로 list입니다.
 
 `@pre_exercise_code`
 ```{python}
@@ -136,15 +110,25 @@ xp: 100
 
 `@sample_code`
 ```{python}
+# 여기에 있는 코드를 그냥 실행해 주시고, 답은 다음칸에 입력하시면 됩니다.
+
+!touch 설명서.txt
+
+# Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
 
 ```
 
 `@solution`
 ```{python}
+# 여기에 있는 코드를 그냥 실행해 주시고, 답은 다음칸에 입력하시면 됩니다.
 
+!touch 설명서.txt
+
+# Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
+!ls
 ```
 
 `@sct`
 ```{python}
-
+#SUBMISSION CORRECTNESS TESTS
 ```
