@@ -297,7 +297,7 @@ print(order)
 
 ---
 
-## Insert exercise title here
+## lecture 1
 
 ```yaml
 type: VideoExercise
