@@ -1,6 +1,7 @@
 ---
 title: '2주차 과제_90일'
 description: 'Chapter description goes here.'
+free_preview: true
 ---
 
 ## 컨벤션에 대해서
