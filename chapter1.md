@@ -79,54 +79,6 @@ class customerList(object):
 
 ---
 
-## 주피터 노트북 (Colab) 에서 Shell command (bash) 사용하기
-
-```yaml
-type: NormalExercise
-key: c9d9e18436
-lang: python
-xp: 100
-skills: 2
-```
-
-(3 점)
-
-분석 업무를 본인 PC 에서 작업을 한다면, 파일을 찾거나 저장, 이동을 윈도우 탐색기(macOS 는 Finder) 로 편리하게 작업이 가능합니다.
-
-그러나 마우스를 활용할 수 없는 환경에서는 Shell command 를 통해 원하는 파일을 가져오거나, 저장, 삭제, 이동 등을 할 수 있습니다.
-
-여기에서는 주피터 노트북에서 Shell command 를 사용하는 방법을 간단히 알아보겠습니다.
-
-`@instructions`
-Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
-
-`@hint`
-목록은 영어로 list입니다.
-
-`@pre_exercise_code`
-```{python}
-!touch 설명서.txt
-```
-
-`@sample_code`
-```{python}
-# Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
-
-```
-
-`@solution`
-```{python}
-# Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
-!ls
-```
-
-`@sct`
-```{python}
-
-```
-
----
-
 ## 숫자(int, float) 와 문자(str) 를 합치는 방법
 
 ```yaml
@@ -294,16 +246,3 @@ print(order)
 ```{python}
 
 ```
-
----
-
-## lecture 1
-
-```yaml
-type: VideoExercise
-key: 3cf3fe7bb4
-xp: 50
-```
-
-`@projector_key`
-c22e61f78f844f6689a7b330562b2376
