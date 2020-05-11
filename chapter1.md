@@ -1,5 +1,5 @@
 ---
-title: 'Chapter Title Here'
+title: '2주차 과제_90일'
 description: 'Chapter description goes here.'
 ---
 
