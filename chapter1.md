@@ -105,15 +105,11 @@ Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성
 
 `@pre_exercise_code`
 ```{python}
-
+!touch 설명서.txt
 ```
 
 `@sample_code`
 ```{python}
-# 여기에 있는 코드를 그냥 실행해 주시고, 답은 다음칸에 입력하시면 됩니다.
-
-!touch 설명서.txt
-
 # Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성해보세요.
 
 ```
