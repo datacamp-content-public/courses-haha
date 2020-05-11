@@ -74,7 +74,7 @@ class customerList(object):
 
 `@sct`
 ```{python}
-#SUBMISSION CORRECTNESS TESTS
+
 ```
 
 ---
@@ -122,5 +122,57 @@ Shell command 를 사용하여 파일 목록을 출력해주는 코드를 작성
 
 `@sct`
 ```{python}
-#SUBMISSION CORRECTNESS TESTS
+
+```
+
+---
+
+## 숫자(int, float) 와 문자(str) 를 합치는 방법
+
+```yaml
+type: NormalExercise
+key: 3dfa85607f
+lang: python
+xp: 100
+skills: 2
+```
+
+(5 점)
+
+아래 a + b 를 실행 했을 때 1문자 로 합칠 수 있게 해주세요.
+
+`@instructions`
+아래 a + b 를 실행 했을 때 **1문자** 로 합칠 수 있게 해주세요.
+a = 1
+b = "문자"
+
+`@hint`
+숫자와 문자는 더 할 수 없습니다.
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+a = 1
+b = "문자"
+
+# "1문자" 가 출력되도록 코드를 작성해주세요.
+```
+
+`@solution`
+```{python}
+a = 1
+b = "문자"
+
+# "1문자" 가 출력되도록 코드를 작성해주세요.
+
+str(a) + b
+```
+
+`@sct`
+```{python}
+
 ```
