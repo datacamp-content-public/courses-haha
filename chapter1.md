@@ -3,7 +3,7 @@ title: 'Chapter Title Here'
 description: 'Chapter description goes here.'
 ---
 
-## Example coding exercise
+## 컨벤션에 대해서
 
 ```yaml
 type: NormalExercise
@@ -13,17 +13,39 @@ xp: 100
 skills: 2
 ```
 
-이 것은 문제입니다. A를 통해서 B를 구하세요. 화이팅입니다.
+(각 2점)
+
+식별자 이름의 형태를 통해 직관적으로 이것이 함수인지, 변수인지 혹은 클래스명을 바로 알 수 있습니다.
+
+저희가 아직 실질적으로 함수, 클래스를 만드는 방법을 배우지는 않았지만, 미리 컨벤션 규칙을 익히려 합니다.
+
+
 
 `@instructions`
-이 것은 가이드입니다. 이렇게 저렇게 풀어보세요. 생각보다 어렵습니다.
+아래 단어를 활용하여 변수명, 함수명, 클래스명을 컨벤션 규칙에 따라 작성해주세요.
+
+**_customer list_**
 
 `@hint`
-이 것은 힌트입니다.
+띄워쓰기 불가 / 숫자로 시작 불가 / 한글 불가 / 이미 선언된 함수명은 피하세요
 
 `@pre_exercise_code`
 ```{python}
-print("helloworld")
+# (1) 아래에 NAME 를 지우고 위 단어로 컨벤션에 맞게 함수명을 작성해주세요.
+
+def NAME():
+  pass
+
+# (2) 아래에 %%%% 를 지우고 위 단어로 컨벤션에 맞게 변수명을 입력해주세요.
+
+NAME = 900
+
+# (3) 아래에 %%%% 를 지우고 위 단어로 컨벤션에 맞게 클래스명을 입력해주세요.
+# class 아래에 def, self 등 코드는 지금은 신경쓰지 않으셔도 됩니다.
+
+class NAME(object):
+  def __init__(self):
+    self.name = "Hello"
 ```
 
 `@sample_code`
@@ -33,7 +55,21 @@ print("helloworld")
 
 `@solution`
 ```{python}
-print("worldhello")
+# (1) 아래에 NAME 를 지우고 위 단어로 컨벤션에 맞게 함수명을 작성해주세요.
+
+def customer_list():
+  pass
+
+# (2) 아래에 NAME 를 지우고 위 단어로 컨벤션에 맞게 변수명을 입력해주세요.
+
+customer_list = 900
+
+# (3) 아래에 NAME 를 지우고 위 단어로 컨벤션에 맞게 클래스명을 입력해주세요.
+# class 아래에 def, self 등 코드는 지금은 신경쓰지 않으셔도 됩니다.
+
+class customerList(object):
+  def __init__(self):
+    self.name = "Hello"
 ```
 
 `@sct`
