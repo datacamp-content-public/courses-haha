@@ -36,6 +36,8 @@ skills: 2
 
 `@sample_code`
 ```{python}
+# customer list
+
 # (1) 아래에 NAME 를 지우고 위 단어로 컨벤션에 맞게 함수명을 작성해주세요.
 
 def NAME():
