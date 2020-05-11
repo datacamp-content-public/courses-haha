@@ -74,7 +74,7 @@ class customerList(object):
 
 `@sct`
 ```{python}
-#SUBMISSION CORRECTNESS TESTS (SCT)
+#SUBMISSION CORRECTNESS TESTS
 ```
 
 ---
