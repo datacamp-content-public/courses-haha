@@ -294,3 +294,16 @@ print(order)
 ```{python}
 
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: VideoExercise
+key: 3cf3fe7bb4
+xp: 50
+```
+
+`@projector_key`
+c22e61f78f844f6689a7b330562b2376
