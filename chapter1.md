@@ -50,7 +50,7 @@ class NAME(object):
 
 `@sample_code`
 ```{python}
-
+#sample code
 ```
 
 `@solution`
@@ -74,7 +74,7 @@ class customerList(object):
 
 `@sct`
 ```{python}
-
+#SUBMISSION CORRECTNESS TESTS (SCT)
 ```
 
 ---
