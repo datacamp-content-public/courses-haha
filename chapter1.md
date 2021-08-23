@@ -1,6 +1,6 @@
 ---
-title: '2주차 과제_90일'
-description: 'Chapter description goes here.'
+title: 2주차 과제_90일
+description: Chapter description goes here.
 free_preview: true
 ---
 
@@ -11,7 +11,8 @@ type: NormalExercise
 key: e8c1edbe67
 lang: python
 xp: 100
-skills: 2
+skills:
+  - 2
 ```
 
 (각 2점)
@@ -87,7 +88,8 @@ type: NormalExercise
 key: 3dfa85607f
 lang: python
 xp: 100
-skills: 2
+skills:
+  - 2
 ```
 
 (5 점)
@@ -139,7 +141,8 @@ type: NormalExercise
 key: ad79063701
 lang: python
 xp: 100
-skills: 2
+skills:
+  - 2
 ```
 
 (5 점)
@@ -197,7 +200,8 @@ type: NormalExercise
 key: c9dc8fd90d
 lang: python
 xp: 100
-skills: 2
+skills:
+  - 2
 ```
 
 (5 점)
